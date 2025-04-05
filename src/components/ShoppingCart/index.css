@@ -1,0 +1,51 @@
+.container{
+    padding:20px;
+    font-family: Arial,  sans-serif;
+}
+
+.products{
+    display: flex;
+    gap:20px;
+    flex-wrap:wrap;
+}
+
+.product-card{
+    border:1px solid #ccc;
+    padding: 15px;
+    border-radius: 10px;
+    text-align: center;
+    width:200px;
+}
+
+.product-card button{
+    cursor: pointer;
+    padding: 6px 12px;
+}
+
+.threshold-msg{
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.progress-bar{
+    height: 10px;
+    background-color: #eee;
+    margin-bottom: 20px;
+    overflow: hidden;
+}
+
+.progress{
+    background-color: green;
+    height: 10px;
+    transition: width 0.3s ease-in-out;
+}
+
+.cart-item{
+    border-top: 1px solid #ccc;
+    padding: 10px 0;
+}
+
+.quantity-buttons button{
+    margin: 0 5px;
+    padding:4px 8px;
+}
